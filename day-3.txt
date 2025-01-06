@@ -1,0 +1,72 @@
+what is javascript ?
+it is a high level , loosely typed ,ligthweight and scripting language .
+scripting language:- the soure 
+
+* head part in html is not seen enduser in app*
+in js console.log is used print output in developer tool
+and document.writeln used print output in ui
+var can be reintialized and redecalred
+let can be reintialized and cannot redecalred
+const cannot redecalred and reintialized
+
+types of datatype:-
+1.primitive datatype:-it can store single value and they are default 
+-String , number,boolen ,null and undefined
+2.non-primitive datatype:-it can store multiple values.
+-they are user defined.
+-functions ,arrays and objects
+
+1.string :- squence of characters enclosed within ""and '' and `` 
+2.number:- it stores all the number datatypes such as int ,float value etc..
+3.boolean:- true and false
+4.undefined:- any variable decalred but not intitalized
+5.null:- it empty value
+
+--------------------------------------------------------------------------------------------------------------
+what is javascript?
+- JavaScript is a high level , loosely or weakly typed ,lightweight and scripting language.
+
+-scripting languages :- the source code directly read by the interpreter.
+
+
+applications :- webpages , mobiles apps , smartwatch , gaming , server side app , database .
+
+vairables :-
+- variabels are containers / memory block to store values.
+types of variables
+1.var :- var can be re-intitialized
+	-var can be re-decalred
+2.let :- let can be re-intitlaized
+	- let cannot be re-decalared
+3.const :-const cannot be re-intitalized and re-decalred.
+
+
+ex:-  var a = 10;/ let b=20; / const c = 30;
+
+		console.log(a , b, c);
+
+- javascript file can be created with extension called "filename.js".
+
+console.log() :- this output method is used to check the output in the developer tool / debugging tool
+
+document.writeln() :- this method is used to print the output on the UI.
+
+
+Datatypes:-
+***********
+- datatypes used to metion what kind of data used in the variable.
+
+- types of datatypes:-
+**********************
+1.primitive datatype:- it can store single values.
+			- they are default.
+			-String  , number , Boolean , null ,undefined
+2.non-primitive datatype :- it can store multiple values.
+			- they are user defined.
+			- functions, arrays , objects
+
+1.string:- sequence of characters enclosed within double quotes / single quotes / backticks(``).
+2.number :- it sotres all the number data types such as integer , float values etc...
+3.boolean :- true/false .
+4.undefined :- any variable decalred but not intitialized.
+5.null :- empty of object.
