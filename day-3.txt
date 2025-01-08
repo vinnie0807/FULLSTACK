@@ -70,3 +70,5 @@ Datatypes:-
 3.boolean :- true/false .
 4.undefined :- any variable decalred but not intitialized.
 5.null :- empty of object.
+
+functions:-
