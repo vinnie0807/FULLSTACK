@@ -72,3 +72,6 @@ Datatypes:-
 5.null :- empty of object.
 
 functions:-
+syntax :- function function_name(optional parameter){
+             / 
+        }
