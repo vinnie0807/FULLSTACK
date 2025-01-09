@@ -73,5 +73,30 @@ Datatypes:-
 
 functions:-
 syntax :- function function_name(optional parameter){
-             / 
+             // statements
         }
+		return value;
+
+Types of the function
+1. named function :- which is having name  to decalared and to call the function.
+2. anonymous function:- funtion which doesnot name to decalared
+3. function expression:- function which is assigned to a variable.
+4.immediate invoked function expression(IIFE):- function which is called immediately after decalration.
+5.arrow function:- function which is used to reduce the code or reduce syntax.
+syntax:- ()=>{};
+-it is also similar to anonymous function.
+- IT is also called as fat arrow function.
+- IT IS USED TO REDUCE THE CODE AND REDUCE THE SYNTAX.
+6.higher order function
+7.call back function
+
+Note:- curreent version of javascript is ES14.
+es - ecmascript
+ECMA - European Computer Manufacturers Association.
+--------------------------------------------------------------------------------------------------------------
+return statements:-
+it will return either expression or value.
+
+implicit return:- it will return the value without using return keyword.
+
+explicit return:- it will return the value using return keyword.
