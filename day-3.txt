@@ -87,8 +87,10 @@ syntax:- ()=>{};
 -it is also similar to anonymous function.
 - IT is also called as fat arrow function.
 - IT IS USED TO REDUCE THE CODE AND REDUCE THE SYNTAX.
-6.higher order function
-7.call back function
+6.higher order function:- 
+-higher order function is a function which accepts another function as a parameter or returns a function as a return value.
+7.call back function:-
+-callback function is fuction which is passed as value or argument to another function.
 
 Note:- curreent version of javascript is ES14.
 es - ecmascript
@@ -100,3 +102,8 @@ it will return either expression or value.
 implicit return:- it will return the value without using return keyword.
 
 explicit return:- it will return the value using return keyword.
+Note: foreacxh conot be return the value.if we want return value s by using foreach it will give outputas undefined.so for this we can use map method.
+where as map can return the value.
+
+-closuer:- closuer is memory created when the function bundled together
+by giving accessiblity  to the  inner function to the outer function.

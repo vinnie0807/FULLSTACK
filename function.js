@@ -79,11 +79,57 @@
 // let x = add(5,4);
 // console.log(x);
  
-let x = (a,b) => a+b; // implicit return
-console.log(x(5,4));
+// let x = (a,b) => a+b; // implicit return
+// console.log(x(5,4));
 
-let y = (a,b) => {
-    console.log("this is explicut return");
-    return a+b;// explicit return
+// let y = (a,b) => {
+//     console.log("this is explicut return");
+//     return a+b;// explicit return
+// }
+// console.log(y(5,4));\
+
+// function hof(a){
+//     return a();
+// };
+// let x =hof(function(){
+//     return "This is callback  function";
+// });
+// console.log(x);
+// function add(callback){
+//     return callback(5,3);
+// };
+// let x = add(function(a,b){return a+b});
+// console.log(x);
+
+let users = ['ram','shyam','mohan','sohan'];
+// console.log(users[0]);
+// console.log(users[1]);
+// console.log(users[2]);
+// for(let i=0;i<users.length;i++){
+//     console.log(users[i]);
+// }
+// let x =users.map((user)=>{
+//     // console.log(user);
+//     return user;
+// });
+// console.log(x);
+// users.map((user)=>{
+//     console.log(user);
+// });
+
+// let x = users.forEach((user)=>{
+//     return user;
+// });
+// console.log(x);
+var a = 10;
+let b = 20;
+function x(){
+    var user = "vinay";
+    let company = "TCS";
+    const sal = 50000;
+    console.log(user);
+    console.log(company);
+    console.log(sal);
+    console.log(a,b);
 }
-console.log(y(5,4));
+x();
