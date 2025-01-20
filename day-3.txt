@@ -107,3 +107,29 @@ where as map can return the value.
 
 -closuer:- closuer is memory created when the function bundled together
 by giving accessiblity  to the  inner function to the outer function.
+
+
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+methods of json:-
+1.JSON.stringify() :- it is used to convert the object into JSon object.
+2.JSON.parse() :- it is used to convert the json object into object.
+
+web storages:-
+-it can store the data inside the browser.
+-upto 10mb data can be stored.
+1.local storage:- it is a permanent storage.
+                - it can  store upto 10MB
+				methods:-
+				1.localStorage.setItem("key","value");
+				2.localStorage.getItem("key");
+				3.localStorage.removeItem("key");
+				4.localStorage.clear();
+2.session storage:- it is a temporary storage.
+                 - it can store upto 5MB of data.
+				 methods:-
+				1.session storage.setItem("key","value");
+				2.session storage.getItem("key");
+				3.session storage.removeItem("key");
+				4.session storage.clear();
+NOTE : javascript is single threaded language.(synchrounous)
