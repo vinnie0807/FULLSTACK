@@ -133,3 +133,28 @@ web storages:-
 				3.session storage.removeItem("key");
 				4.session storage.clear();
 NOTE : javascript is single threaded language.(synchrounous)
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________
+Asynchronous :- making js to work multiple task at a time.\
+1.setTimeout() :- it is used to delay the execution of the function.
+				 -syntax:- setTimeout(function_name, time);
+2.setInterval() :- it is used to repeat the execution of the function.
+                 -syntax:- setInterval(function_name, time);
+
+promise:- it is used to handle the asynchronous operation.
+        -it es6 feature.
+		status of promise:-
+		1.pending:- initial state of the promise. still ongoing.
+		2.fulfilled:- operation is successful.
+		3.rejected:- operation is failed.
+sysntax:- var promise = new Promise(function(resolve,reject){
+			// statements
+		});
+		promise.then(function(){
+			// statements
+		}).catch(function(){
+			// statements
+		});
+
+for handle promise we can use then and catch method.
+then method is used to handle the fulfilled state.
+catch method is used to handle the rejected state.
