@@ -5,8 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th,td{
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+    th{
+        background-color: #f2f2f2;
+    }
+    tr:nth-child(even){
+        background-color: #f2f2f2;
+    }
+    tr:hover{
+        background-color: #f5f5f5;
+    }
+</style>
 <body>
-    <h1>Javascript</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>SI.NO</th>
+                <th>NAME</th>
+                <th>Email</th>
+                <th>Company</th>
+            </tr>
+        </thead>
+        <tbody id ="store">
+        </tbody>
+    </table>
+    <!-- <h1>Javascript</h1> -->
     <!-- <button onclick="addtocart()">Add to cart</button> -->
     <!-- <script src="./app.js"> </script> -->
     <!-- <script src="./function.js"></script> -->
@@ -14,6 +46,7 @@
      <!-- <script src="./programs.js"></script> -->
       <!-- <script src="./array.js"></script> -->
       <!-- <script src="./webstorage.js"></script> -->
-       <script src="./async.js"></script>
+       <!-- <script src="./async.js"></script> -->
+        <script src="./api.js"></script>
 </body>
 </html>
