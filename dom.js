@@ -1,5 +1,5 @@
 let element = document.getElementById("demo");
-element.innerHTML = "DOM";
+element.innerText = "DOM";
 console.log(element);
 
 let div =  document.getElementById("test");
