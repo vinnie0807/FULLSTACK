@@ -158,3 +158,32 @@ sysntax:- var promise = new Promise(function(resolve,reject){
 for handle promise we can use then and catch method.
 then method is used to handle the fulfilled state.
 catch method is used to handle the rejected state.
+
+4.async and await:- 
+                   async:- it is used to make the function as asynchronous.
+				   await:- it is used to wait for the promise to be settled.
+
+syntax:- async function function_name(){
+			await promise;
+		}	
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________
+DOM:- Document Object Model.
+what is dom?
+-DOM is a wed api used to manipulate the html conmtext.
+-Dom is used to add, remove, update the html elements.
+methodo of dom :-
+1.document.getElementById("id"):- it is used to get the element by id.
+                                -it can only traget the single element value.
+2.document.getElementByClassName("class"):- it is used to get the element by class name.
+                                          -it can target the multiple element value.
+										  -with class attribute we can use multiple class name.
+3.document.getElementByTagName("tagname"):- it is used to get the element by tag name.
+4.document.getElementByName("name"):- it is used to get the element by name.
+5.document.querySelector("selector"):- it is used to get the element by css selector.this method select only one element.
+6.document.querySelectorAll("selector"):- it is used to get the element by css selector.this method select multiple element.
+
+innnerText:- it is used to get the text content of the element.
+            -it is used a manipulate only text content.
+
+innerHTML:- it is used to get the html content of the element.
+		   -it is used to manipulate the html content.
