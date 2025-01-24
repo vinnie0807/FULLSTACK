@@ -187,3 +187,7 @@ innnerText:- it is used to get the text content of the element.
 
 innerHTML:- it is used to get the html content of the element.
 		   -it is used to manipulate the html content.
+
+Event in javascript:-
+-events are nothing but an action to perform on html elements.
+event:- onclick,ondblclick,onmouseover,onmouseout,onkeydown,onkeyup,onkeypress,onchange,onsubmit
