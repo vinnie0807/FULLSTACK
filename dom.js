@@ -50,8 +50,19 @@
 //     document.body.style.backgroundColor = "red";
 // });
 
-let btn = document.getElementById("btn");
-btn.addEventListener("dblclick", function(){
-    console.log("Button clicked");
-    document.body.style.backgroundColor = "red";
-});
+// let btn = document.getElementById("btn");
+// btn.addEventListener("dblclick", function(){
+//     console.log("Button clicked");
+//     document.body.style.backgroundColor = "red";
+// });
+ let bg = document.getElementsByClassName("gg");
+    [...bg].map((element)=>{
+        element.addEventListener("mouseover",()=>{
+            // console.log(element.innerHTML);
+            element.style.backgroundColor = element.innerHTML;
+        });
+        element.addEventListener("mouseleave",()=>{
+            console.log(element.innerHTML);
+            element.style.backgroundColor = "transparent";
+        });
+    });

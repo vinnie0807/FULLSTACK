@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRCODE</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        background-origin: padding-box;
+        border: 1px solid black;
+        box-shadow: inset 0 0 10px black;
+        
+    }
+    .container h1{
+        margin: 0;
+        box-shadow: 0 0 10px black;
+    }
+    .imgblock{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+        margin: 10px;
+    }
+    
+    .inputblock{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 200px;
+        margin: 10px;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>QR Code Generator</h1>
+        <div class="imgblock">
+            <img src="" alt="">
+        </div>
+        <div class="inputblock">
+            <input type="text" id="text" placeholder="Enter the text">
+            <button id="generate">Generate</button>
+    </div>
+</body>
+<script>
+    const text = document.getElementById('text');
+    const generate = document.getElementById('generate');
+    const img = document.querySelector('img');
+    generate.addEventListener('click',()=>{
+        const src = `https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${text.value}`;
+        img.src = src;
+    })
+</script>
+</html>
