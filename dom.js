@@ -55,14 +55,40 @@
 //     console.log("Button clicked");
 //     document.body.style.backgroundColor = "red";
 // });
- let bg = document.getElementsByClassName("gg");
-    [...bg].map((element)=>{
-        element.addEventListener("mouseover",()=>{
-            // console.log(element.innerHTML);
-            element.style.backgroundColor = element.innerHTML;
-        });
-        element.addEventListener("mouseleave",()=>{
-            console.log(element.innerHTML);
-            element.style.backgroundColor = "transparent";
-        });
-    });
+//  let bg = document.getElementsByClassName("gg");
+//     [...bg].map((element)=>{
+//         element.addEventListener("mouseover",()=>{
+//             // console.log(element.innerHTML);
+//             element.style.backgroundColor = element.innerHTML;
+//         });
+//         element.addEventListener("mouseleave",()=>{
+//             console.log(element.innerHTML);
+//             element.style.backgroundColor = "transparent";
+//         });
+//     });
+
+let mainEle = document.createElement("div");
+mainEle.setAttribute("class","mainBlock");
+console.log(mainEle);
+
+let topEle = document.createElement("div");
+topEle.setAttribute("class","topBlock");
+
+let image = document.createElement("img");
+image.src = "https://media.istockphoto.com/id/2155515088/photo/funny-red-cat-in-sunglasses-and-red-t-shirt-is-sitting-at-table-with-mobile-phone-and-licking.webp?b=1&s=612x612&w=0&k=20&c=Iv6O92aEtYmhj9tDmRAwWd9VQgcmuaaOG0u1EF2logs=";
+
+let bottomEle = document.createElement("div"); 
+bottomEle.setAttribute("class","bottomBlock");
+
+let h1 = document.createElement("h1");
+h1.innerText = "Heading";
+
+let btn = document.createElement("button");
+btn.innerText = "view more";
+
+mainEle.appendChild(topEle);
+mainEle.appendChild(bottomEle);
+bottomEle.appendChild(h1);
+bottomEle.appendChild(btn);
+topEle.appendChild(image);
+document.body.appendChild(mainEle);

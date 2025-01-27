@@ -193,3 +193,10 @@ Event in javascript:-
 event:- onclick,ondblclick,onmouseover,onmouseout,onkeydown,onkeyup,onkeypress,onchange,onsubmit
 
 creation of element dymaically:-
+
+difference uri and url:-
+-uri:- uniform resource identifier.
+-url:- uniform resource locator.
+
+uri:- it is used to identify the resource.
+url:- it is used to locate the resource.

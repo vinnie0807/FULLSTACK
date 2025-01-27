@@ -4,16 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <div></div>
-    <form>
-        <input type="text" id="text" placeholder="Enter the name">
-        <input type="text" id="email" placeholder="Enter the email">
-        <input type="password" id="password" placeholder="Enter the password">
-        <button id="submit">Submit</button>
-    </form>
-    <script src="./dom1.js"></script>
 </head>
 <body>
-    
+    <form>
+        <div class="formgroup">
+            <label for="uName">Username :</label>
+            <input type="text" id="uName" placeholder="enter a username">
+        </div>
+        <div class="formgroup">
+            <label for="uPass">Password :</label>
+            <input type="password" id="uPass" placeholder="enter a password">
+        </div>
+        <div class="formgroup">
+            <label for="">Gender :</label>
+            <input type="radio" name="gender" value="male"><span>Male</span>
+            <input type="radio" name="gender" value="female"><span>Female</span>
+            <input type="radio" name="gender" value="others"><span>Others</span>
+        </div>
+
+        <div class="formgroup">
+            <input type="submit">
+        </div>
+     </form>
 </body>
 </html>
