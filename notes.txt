@@ -200,3 +200,75 @@ difference uri and url:-
 
 uri:- it is used to identify the resource.
 url:- it is used to locate the resource.
+
+modules:-
+
+
+Take array of objects each should emp id emp name emp company
+emp sarlay emp address
+where emp address is agian an objkect which havinh emp city ,emp areas in JavaScript
+and print all whose values on the ui in the from of table
+
+const employees = [
+	{
+		id: 1,
+		name: 'John Doe',
+		company: 'Company A',
+		salary: 50000,
+		address: {
+			city: 'New York',
+			area: 'Manhattan'
+		}
+	},
+	{
+		id: 2,
+		name: 'Jane Smith',
+		company: 'Company B',
+		salary: 60000,
+		address: {
+			city: 'Los Angeles',
+			area: 'Hollywood'
+		}
+	},
+	{
+		id: 3,
+		name: 'Mike Johnson',
+		company: 'Company C',
+		salary: 55000,
+		address: {
+			city: 'Chicago',
+			area: 'Downtown'
+		}
+	}
+];
+
+const table = document.createElement('table');
+const headerRow = document.createElement('tr');
+
+const headers = ['ID', 'Name', 'Company', 'Salary', 'City', 'Area'];
+headers.forEach(headerText => {
+	const header = document.createElement('th');
+	header.textContent = headerText;
+	headerRow.appendChild(header);
+});
+table.appendChild(headerRow);
+
+employees.forEach(employee => {
+	const row = document.createElement('tr');
+	Object.values(employee).forEach(value => {
+		if (typeof value === 'object') {
+			Object.values(value).forEach(subValue => {
+				const cell = document.createElement('td');
+				cell.textContent = subValue;
+				row.appendChild(cell);
+			});
+		} else {
+			const cell = document.createElement('td');
+			cell.textContent = value;
+			row.appendChild(cell);
+		}
+	});
+	table.appendChild(row);
+});
+
+document.body.appendChild(table);
