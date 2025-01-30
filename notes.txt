@@ -272,3 +272,17 @@ employees.forEach(employee => {
 });
 
 document.body.appendChild(table);
+30/01/2025:-
+modules
+form vaildations
+intro to react
+-------------------------------------------------------------------------------
+modules:-
+modules are like import/export code to another js files
+ type of modules:
+ 1: Named modules:Definely while importing should use same name that you are defining exactly.You 
+ can export as many modules oc code that you want .
+ 2:default modules:only one default export can used in one file in js .
+
+Q)cerate a sigup form that having user , email password ,confirm password ,once you click on submit buttom a alert shouldbe popped up on you 
+screen .if and only if all th details are correct
