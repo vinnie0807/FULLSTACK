@@ -1,0 +1,94 @@
+what is React.js?
+-React.js is a JavaScript library for building user interfaces. 
+-It allows developers to create large web applications that can update and render efficiently in response to data changes.
+-React is maintained by Facebook and a community of individual developers and companies.
+
+librariries :- it is a collection of codes.
+             -less set of rules.
+             -reactjs,jquery,ember etc..
+             -these are used to devlop small or moderate of applications
+frameworks :- it is a collection of librariries.
+            -they are having more set of rules
+
+-React is a JavaScript library to build rich user interfaces.
+-React is faster because of "Virtual DOM".
+-React follows component based approach.
+-React followsunidirectional data flow.
+-React follows both client-side rendering AND Server-side rendering.
+
+-React was introduced in 2011 by Facebook.
+-later it was made open-source in 2013.
+-Jordan wlke made it.
+-React is a free and platform independent.
+
+what is Virtual DOM?
+-Virtual DOM is Virtual representation of a ui which is kept in a memory and later synced with real DOM 
+by using a library called "ReactDOM".
+
+what is Reconciliation?
+-Reconciliation is the process through which React updates the DOM.
+-When a component's state or props change, React creates a new Virtual DOM tree.
+-React then compares this new tree with the previous one using a diffing algorithm.
+-Only the parts of the DOM that have changed are updated, making the process efficient.
+
+React folder struture:
+-node modules: this folder stores all the thrid party libraries.
+-src: this folder contains all the React components and other source code files.
+    -components: this folder contains all the reusable components.
+     -assets: this folder contains images, fonts, and other static assets.
+    -utils: this folder contains utility functions and helpers.
+- inside src folder index.js file is a mandatory file.
+  -the name of this file must be index.js only.
+-React library:- this library is main library.
+React Script:-to start react app and update lively we need tis library.
+
+JSX:-
+------------------------------------------------------------------------------------------------------------------------
+-JavaScript xml 
+-jsx is a JavaScript syntax which is used to write html-like markup in the reactjs.
+-jsx is a combination of JS and xml.
+
+component:-
+**********
+-component are divided into 2 type .they are,
+ 1.class based component.
+ 2.functions based component.
+
+ 1.class based component:-
+ this is similar to js es6 class syntax.
+this class components is called "stateful components" because class components can hold and manage local state. The state is a built-in object that stores property values that belong to the component. When the state object changes, the component re-renders.
+class MyComponent extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            message: 'Hello, World!'
+        };
+    }
+
+    render() {
+        return (
+            <div>
+                <h1>{this.state.message}</h1>
+            </div>
+        );
+    }
+    
+}
+
+2.function based Component:-
+this is a "stateless component" until React v16.
+function MyComponent() {
+    const [message, setMessage] = React.useState('Hello, World!');
+
+    return (
+        <div>
+            <h1>{message}</h1>
+        </div>
+    );
+}
+export deafult app;
+02/02/2025:
+--------------------------------------------------------------------------
+component composition:-
+-multiple  component are combined together to make one single application.
+Note:- every 
