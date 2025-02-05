@@ -92,3 +92,7 @@ export deafult app;
 component composition:-
 -multiple  component are combined together to make one single application.
 Note:- every 
+
+props :-
+props is an object.
+
