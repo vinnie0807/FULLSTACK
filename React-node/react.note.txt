@@ -96,3 +96,8 @@ Note:- every
 props :-
 props is an object.
 
+state:-
+state is an object which is used stores 
+
+Note:- this keyword :-it target current object
+rafce

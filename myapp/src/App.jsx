@@ -1,8 +1,10 @@
 import React from 'react';
 // import ChildProps from './propsexample/ChildProps';
 // import FBCPropex from './propsexample/FBCPropex';
-import PropsChildrenEx from './propsexample/PropsChildrenEx';
-import ChildProps from './propsexample/ChildProps';
+// import PropsChildrenEx from './propsexample/PropsChildrenEx';
+// import ChildProps from './propsexample/ChildProps';
+// import CBStateex from './stateexamples/CBStateex';
+import FBCStateEx from './stateexamples/FBCStateEx';
 // import Navbar from './components/Navbar';
 // import Main from './components/Main';
 // import Sidebar1 from './components/Sidebar1';
@@ -49,14 +51,26 @@ import ChildProps from './propsexample/ChildProps';
 
 // export default App
 
-export default function App() {
+// export default function App() {
+//   return (
+//     <div>
+//       <PropsChildrenEx username="vinay" company="TCS">
+//       <h1>This data is passed as props child</h1>
+//       <ChildProps/>
+//       </PropsChildrenEx>
+//     </div>
+//   )
+// }
+
+const App = () => {
   return (
     <div>
-      <PropsChildrenEx username="vinay" company="TCS">
-      <h1>This data is passed as props child</h1>
-      <ChildProps/>
-      </PropsChildrenEx>
+      <h1>App</h1>
+      <hr/>
+      {/* <CBStateex/> */}
+      <FBCStateEx/>
     </div>
   )
 }
 
+export default App
