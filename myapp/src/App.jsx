@@ -4,7 +4,8 @@ import React from 'react';
 // import PropsChildrenEx from './propsexample/PropsChildrenEx';
 // import ChildProps from './propsexample/ChildProps';
 // import CBStateex from './stateexamples/CBStateex';
-import FBCStateEx from './stateexamples/FBCStateEx';
+// import FBCStateEx from './stateexamples/FBCStateEx';
+import ChildProps from './propsexample/ChildProps';
 // import Navbar from './components/Navbar';
 // import Main from './components/Main';
 // import Sidebar1 from './components/Sidebar1';
@@ -68,7 +69,8 @@ const App = () => {
       <h1>App</h1>
       <hr/>
       {/* <CBStateex/> */}
-      <FBCStateEx/>
+      {/* <FBCStateEx/> */}
+      <ChildProps city='hyd'/>
     </div>
   )
 }
