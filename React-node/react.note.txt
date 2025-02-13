@@ -100,4 +100,15 @@ state:-
 state is an object which is used stores 
 
 Note:- this keyword :-it target current object
-rafce
+
+basic hooks:-
+-useState
+-useEffect
+-useContext
+-useRef
+
+2.useEffect:-
+-useEffect is a hook that allows you to perform side effects in function components.
+
+3.useRef:-
+-useRef is a hook that returns a mutable re fobject whose .current property is  in initial value paseed to useRef.

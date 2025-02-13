@@ -1,16 +1,20 @@
 import React from 'react';
+// import ExUseEffect from './Hooks/ExUseEffect';
+// import RefExamples from './Hooks/RefExamples';
+import Form2 from './components/From2';
 // import ChildProps from './propsexample/ChildProps';
 // import FBCPropex from './propsexample/FBCPropex';
 // import PropsChildrenEx from './propsexample/PropsChildrenEx';
 // import ChildProps from './propsexample/ChildProps';
 // import CBStateex from './stateexamples/CBStateex';
 // import FBCStateEx from './stateexamples/FBCStateEx';
-import ChildProps from './propsexample/ChildProps';
+// import ChildProps from './propsexample/ChildProps';
 // import Navbar from './components/Navbar';
 // import Main from './components/Main';
 // import Sidebar1 from './components/Sidebar1';
 // import Sidebar2 from './components/Sidebar2';
 // import Footer from './components/Footer';
+// import Froms from './components/Froms';
 // import CBCPropex1 from './propsexample/CBCPropex1';
 // // function App () {
 
@@ -66,11 +70,15 @@ import ChildProps from './propsexample/ChildProps';
 const App = () => {
   return (
     <div>
-      <h1>App</h1>
-      <hr/>
+      {/* <h1>App</h1>
+      <hr/> */}
       {/* <CBStateex/> */}
       {/* <FBCStateEx/> */}
-      <ChildProps city='hyd'/>
+      {/* <ChildProps city='hyd'/> */}
+      {/* <Froms/> */}
+      {/* <ExUseEffect/> */}
+      {/* <RefExamples/> */}
+      <Form2/>
     </div>
   )
 }
