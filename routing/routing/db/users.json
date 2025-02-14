@@ -1,0 +1,21 @@
+{
+    "users":[
+        {
+            "id":"1",
+            "name":"vk",
+            "email":"vinaykumarb518@gmail.com",
+            "phone":"222222"
+        },
+        {
+            "id":"2",
+            "name":"vinay",
+            "email":"vinay@gmail.com",
+            "phone":"13285423"
+        },{
+            "id":"3",
+            "name":"kumar",
+            "email":"kumarb518@gmail.com",
+            "phone":"22298654"
+        }
+    ]
+}

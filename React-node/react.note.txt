@@ -112,3 +112,5 @@ basic hooks:-
 
 3.useRef:-
 -useRef is a hook that returns a mutable re fobject whose .current property is  in initial value paseed to useRef.
+
+Server is stateless and client is stateful.it is used from srver that data but not store data
