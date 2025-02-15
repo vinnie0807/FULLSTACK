@@ -15,10 +15,21 @@ const Home = () => {
             });
     }, []);
 
+    const handleDelete = (id) => {
+        axios.delete(`http://localhost:5000/users/${id}`)
+            .then(() => {
+                setUsersData(usersData.filter(user => user.id !== id));
+            })
+            .catch((error) => {
+                console.log(error);
+            });
+    };
+
     return (
         <section id="homebolck">
             <article>
                 <h1>List of user</h1>
+                <button onClick={() => window.location.href = '/Create'}>Create user</button>
                 <table>
                     <thead>
                         <tr>
@@ -26,6 +37,7 @@ const Home = () => {
                             <th>Name</th>
                             <th>Email</th>
                             <th>Phone number</th>
+                            <th>Actions</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -35,6 +47,10 @@ const Home = () => {
                                 <td>{user.name}</td>
                                 <td>{user.email}</td>
                                 <td>{user.phone}</td>
+                                <td>
+                                    <button onClick={() => handleDelete(user.id)}>Delete</button>
+                                    <button onClick={() => window.location.href = `/Edit`}>Edit</button>
+                                </td>
                             </tr>
                         ))}
                     </tbody>

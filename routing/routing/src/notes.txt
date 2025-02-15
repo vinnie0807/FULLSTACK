@@ -10,3 +10,6 @@ Routing in react:-
  7 - major updation
  1 - minor updation
  5 - patch(small updations)
+
+ commads for json server run is:-
+json-server --watch users.json --port 5000
