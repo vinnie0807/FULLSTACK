@@ -13,3 +13,11 @@ Routing in react:-
 
  commads for json server run is:-
 json-server --watch users.json --port 5000
+- To start the development server, use:
+npm start
+
+- To create a production build, use:
+npm run build
+
+- To run tests, use:
+npm test
